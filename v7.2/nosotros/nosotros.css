@@ -1,0 +1,79 @@
+/* estilos.css */
+
+/* Estilos generales */
+
+    /* Estilos para la barra de navegación principal */
+    .navbar-primary {
+      background-color: black;
+      color: #000000;
+      overflow: hidden;
+    }
+    
+    .navbar-primary a {
+      float: left;
+      display: block;
+      color: #000000;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    .navbar-primary a:hover {
+      background-color: #000000;
+    }
+    
+    /* Estilos para la barra de navegación secundaria */
+    .navbar-secondary {
+      background-color: transparent;
+      color: #161616;
+      overflow: hidden;
+      float: right;
+    }
+    
+    .navbar-secondary a {
+      float: left;
+      display: block;
+      color: #000000;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    .navbar-secondary a:hover {
+      background-color: #000000;
+    }
+    
+    body {
+      min-height: 100px;
+      background-image: url('/image/background.jpg');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    .services {
+      max-width: 800px;
+      margin: 20px;
+      padding: 20px;
+      background-color: #111111;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .services h2 {
+      margin-top: 0;
+    }
+    
+    .services p {
+      margin-bottom: 10px;
+    }
+  

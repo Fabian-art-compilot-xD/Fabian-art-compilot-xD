@@ -1,0 +1,71 @@
+
+/* Estilos para la barra de navegación principal */
+.navbar-primary {
+  background-color: transparent;
+  color: #fff;
+  overflow: hidden;
+}
+
+.navbar-primary a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar-primary a:hover {
+  background-color: #ddd;
+}
+
+/* Estilos para la barra de navegación secundaria */
+.navbar-secondary {
+  background-color: transparent;
+  color: #fff;
+  overflow: hidden;
+  float: right;
+}
+
+.navbar-secondary a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar-secondary a:hover {
+  background-color: #ddd;
+}
+
+body {
+  min-height: 100vh;
+  background: url('background.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.5;
+  margin-bottom: 20px;
+} 
